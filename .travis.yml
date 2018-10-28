@@ -1,0 +1,8 @@
+addons:
+  sonarcloud:
+    organization: "aszulist-github" # the key of the org you chose at step #3
+    token:
+      secure: 262bf54255316ef058024de064b1d473418f7c20 # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
